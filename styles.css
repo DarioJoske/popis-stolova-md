@@ -160,12 +160,6 @@ svg {
   cursor: pointer;
 }
 
-.search-box button {
-  margin: 16px;
-  width: stretch;
-  height: 2.6rem;
-}
-
 .search-box button:hover,
 .back-to-top:hover {
   background: var(--rose-strong);
