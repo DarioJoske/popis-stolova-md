@@ -1,53 +1,4 @@
-const TABLES = [
-  {
-    name: "Stol 1",
-    note: "Obitelj mladenke",
-    guests: [
-      "Ana Horvat",
-      "Marko Horvat",
-      "Ivana Kovač",
-      "Luka Kovač",
-      "Marija Novak",
-      "Petar Novak",
-    ],
-  },
-  {
-    name: "Stol 2",
-    note: "Obitelj mladoženje",
-    guests: [
-      "Maja Babić",
-      "Ivan Babić",
-      "Tea Jurić",
-      "Domagoj Jurić",
-      "Nina Perić",
-      "Josip Perić",
-    ],
-  },
-  {
-    name: "Stol 3",
-    note: "Prijatelji",
-    guests: [
-      "Sara Matić",
-      "Filip Matić",
-      "Ema Barišić",
-      "Roko Barišić",
-      "Lucija Vuković",
-      "Tomislav Vuković",
-    ],
-  },
-  {
-    name: "Stol 4",
-    note: "Kumovi i društvo",
-    guests: [
-      "Katarina Grgić",
-      "Ante Grgić",
-      "Paula Božić",
-      "Bruno Božić",
-      "Lea Šarić",
-      "Matej Šarić",
-    ],
-  },
-];
+const TABLES = window.WEDDING_TABLES ?? [];
 
 const tablesEl = document.querySelector("#tables");
 const guestCountEl = document.querySelector("#guestCount");
@@ -85,6 +36,17 @@ const escapeHtml = (value) =>
   })[char]);
 
 function renderTables() {
+  if (TABLES.length === 0) {
+    tablesEl.innerHTML = `
+      <div class="empty-state">
+        <h3>Nema učitanih stolova</h3>
+        <p>Pokrenite generator podataka iz foldera stolovipopis.</p>
+      </div>
+    `;
+    statusEl.textContent = "Podaci o stolovima nisu učitani.";
+    return;
+  }
+
   tablesEl.innerHTML = TABLES.map((table, tableIndex) => `
     <article class="table-card" id="table-${tableIndex + 1}" data-table-index="${tableIndex}">
       <div class="table-head">
