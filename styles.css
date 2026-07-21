@@ -149,7 +149,7 @@ svg {
   color: #9a858b;
 }
 
-.search button,
+.search-box button,
 .back-to-top {
   display: grid;
   place-items: center;
@@ -160,12 +160,12 @@ svg {
   cursor: pointer;
 }
 
-.search button {
+.search-box button {
   width: 2.6rem;
   height: 2.6rem;
 }
 
-.search button:hover,
+.search-box button:hover,
 .back-to-top:hover {
   background: var(--rose-strong);
 }
