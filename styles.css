@@ -161,7 +161,8 @@ svg {
 }
 
 .search-box button {
-  width: 2.6rem;
+  margin: 16px;
+  width: stretch;
   height: 2.6rem;
 }
 
