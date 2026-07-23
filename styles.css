@@ -65,7 +65,8 @@ input {
   border-radius: 50%;
   color: var(--rose);
   font-family: Georgia, serif;
-  font-size: 1.45rem;
+  font-size: 1.08rem;
+  font-weight: 700;
   background: var(--surface);
 }
 
@@ -389,6 +390,17 @@ main {
 .guest-name {
   min-width: 0;
   overflow-wrap: anywhere;
+}
+
+.empty-seat {
+  color: var(--muted);
+  background: #faf6f2;
+  border-color: #f0e4df;
+}
+
+.empty-seat .seat-number {
+  color: var(--muted);
+  background: #efe8e2;
 }
 
 .guest.highlight {

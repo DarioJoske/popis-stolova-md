@@ -41,7 +41,7 @@ def read_docx_lines(path):
 
 
 def expand_guest_line(line):
-    numbered_parts = re.split(r"(?=\d+\.\s*)", line)
+    numbered_parts = re.split(r"(?<!\d)(?=\d+\.\s*)", line)
     parts = [
         re.sub(r"^\d+\.\s*", "", part).strip()
         for part in numbered_parts
@@ -67,11 +67,16 @@ def table_from_docx(path):
             continue
         guests.extend(guest for guest in expand_guest_line(line) if guest)
 
-    return {
+    table = {
         "name": name,
         "note": "Raspored sjedenja",
         "guests": guests,
     }
+
+    if name == "Stol 4":
+        table["seats"] = 12
+
+    return table
 
 
 def main():

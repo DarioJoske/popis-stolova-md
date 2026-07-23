@@ -9,8 +9,8 @@ window.WEDDING_TABLES = [
       "Jurić Ženet",
       "Jurić Ivan",
       "Oehlschläger Hannah",
-      "Jurić Tomo",
-      "Jurić Martina",
+      "Ćebić Marko",
+      "Jurić Lucija",
       "Marković Petar",
       "Marković Žaklina"
     ]
@@ -64,11 +64,10 @@ window.WEDDING_TABLES = [
       "Josipović Mijo",
       "Josipović Ivica",
       "Dežić Mara",
-      "1",
       "Jurišić Dubravka",
-      "1",
       "Lukanović Mato"
-    ]
+    ],
+    "seats": 12
   },
   {
     "name": "Stol 5",
@@ -137,7 +136,7 @@ window.WEDDING_TABLES = [
       "Josipović Barbara",
       "Veselčić Lidija",
       "Matić Luka",
-      "Veselšić Slobodan",
+      "Veselčić Slobodan",
       "Veselčić Dijana",
       "Ćebić Anita",
       "Ćebić Andrej"
@@ -256,7 +255,7 @@ window.WEDDING_TABLES = [
     "name": "Stol 15",
     "note": "Raspored sjedenja",
     "guests": [
-      "Dečić Boro",
+      "Dežić Boro",
       "Dežić Nada",
       "Dežić Juro",
       "Pranjić Niko",
@@ -668,7 +667,8 @@ window.WEDDING_TABLES = [
       "Kadrić Anadin",
       "Grgić Inga",
       "Đajić Radomir",
-      "Đajić Georgitsa Evangelia"
+      "Đajić Georgitsa Evangelia",
+      "Pavlović Savo"
     ]
   },
   {
@@ -840,7 +840,7 @@ window.WEDDING_TABLES = [
       "Tadić Luka",
       "Gudeljević Gabrijela",
       "Tadić Anto",
-      "Vukoja Valentina",
+      "Vukoja Martina",
       "Veselčić Manda",
       "Tadić Adrian",
       "Jurić Mario",

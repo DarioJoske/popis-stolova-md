@@ -47,14 +47,21 @@ function renderTables() {
     return;
   }
 
-  tablesEl.innerHTML = TABLES.map((table, tableIndex) => `
+  tablesEl.innerHTML = TABLES.map((table, tableIndex) => {
+    const seatCount = table.seats ?? table.guests.length;
+    const emptySeats = Math.max(0, seatCount - table.guests.length);
+    const seatLabel = emptySeats > 0
+      ? `${table.guests.length}/${seatCount} popunjeno`
+      : `${seatCount} mjesta`;
+
+    return `
     <article class="table-card" id="table-${tableIndex + 1}" data-table-index="${tableIndex}">
       <div class="table-head">
         <div>
           <h3>${escapeHtml(table.name)}</h3>
           <p>${escapeHtml(table.note)}</p>
         </div>
-        <span class="seat-count">${table.guests.length} mjesta</span>
+        <span class="seat-count">${seatLabel}</span>
       </div>
       <ol class="guest-list">
         ${table.guests.map((guest, guestIndex) => `
@@ -63,9 +70,16 @@ function renderTables() {
             <span class="guest-name">${escapeHtml(guest)}</span>
           </li>
         `).join("")}
+        ${Array.from({ length: emptySeats }, (_, emptyIndex) => `
+          <li class="guest empty-seat">
+            <span class="seat-number">${table.guests.length + emptyIndex + 1}</span>
+            <span class="guest-name">Prazno mjesto</span>
+          </li>
+        `).join("")}
       </ol>
     </article>
-  `).join("");
+  `;
+  }).join("");
 
   guestCountEl.textContent = String(guestIndex.length);
   tableCountEl.textContent = String(TABLES.length);
