@@ -241,15 +241,15 @@ window.WEDDING_TABLES = [
       "Tadić Mato",
       "Tadić Marija",
       "Veselčić Anto (Đorđo)",
-      "Žepić Katica",
-      "Žepić Ilija",
       "Veselčić Nikica",
       "Veselčić Dalibor",
       "Varazalić Slađana",
       "Veselčić Mario (Percan)",
       "Veselčić Katarina",
       "Veselčić Livio",
-      "Veselčić Mijo (Mikula)"
+      "Veselčić Mijo (Mikula)",
+      "Žepić Kristijan",
+      "Simunović Katarina"
     ]
   },
   {
@@ -493,7 +493,7 @@ window.WEDDING_TABLES = [
       "Jović Ruža",
       "Jović Željko",
       "Jović Slobodanka",
-      "Ninić Slava",
+      "Nikić Slavica",
       "Bojadžija Goran",
       "Bojadžija Rosa",
       "Bojadžija Dušan",
@@ -796,7 +796,9 @@ window.WEDDING_TABLES = [
       "Mikić Pero",
       "Mikić Marija",
       "Lukić Ivica",
-      "Lukić Ivana"
+      "Lukić Ivana",
+      "Žepić Katica",
+      "Žepić Ilija"
     ]
   },
   {
@@ -865,8 +867,6 @@ window.WEDDING_TABLES = [
       "Matijević Šejla",
       "Tadić Mato (Matolja)",
       "Tadić Anđela",
-      "Tadić Petar",
-      "Tadić Mirela",
       "Veselčić Vitomir",
       "Veselčić Mara"
     ]
