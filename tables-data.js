@@ -65,7 +65,8 @@ window.WEDDING_TABLES = [
       "Josipović Ivica",
       "Dežić Mara",
       "Jurišić Dubravka",
-      "Lukanović Mato"
+      "Lukanović Mato",
+      "Jurišić Darija"
     ],
     "seats": 12
   },
@@ -102,7 +103,7 @@ window.WEDDING_TABLES = [
       "Marković Irina",
       "Martić Vijeko",
       "Martić Suzana",
-      "Josipović Ivo"
+      "Martić Zora"
     ]
   },
   {
@@ -263,7 +264,8 @@ window.WEDDING_TABLES = [
       "Arapović Zoran",
       "Arapović Lidija",
       "Antolović Jeronim",
-      "Antolović Gordana"
+      "Antolović Gordana",
+      "Veselčić Anto (Rućak)"
     ]
   },
   {
@@ -317,7 +319,8 @@ window.WEDDING_TABLES = [
       "Veselčić Paula",
       "Veselčić Ivana (Kare)",
       "Tadić Gabrijel",
-      "Tadić Mateo"
+      "Tadić Mateo",
+      "Tadić Ana"
     ]
   },
   {
@@ -441,8 +444,8 @@ window.WEDDING_TABLES = [
       "Dežić Mirjana",
       "Paradžiković Niko",
       "Paradžiković Mara",
-      "Paradžiković Tomo",
-      "Paradžiković Sandra",
+      "Anđić Niko",
+      "Anđić Ruža",
       "Jurić Juro (Nikolin)"
     ]
   },
@@ -758,7 +761,8 @@ window.WEDDING_TABLES = [
       "Jurić Anto (Peleš)",
       "Jurić Marijana",
       "Jurić Marina",
-      "Bacanović Mario"
+      "Bacanović Mario",
+      "Marić Robert"
     ]
   },
   {
@@ -773,7 +777,7 @@ window.WEDDING_TABLES = [
       "Tunjić Kata",
       "Tunjić Marija",
       "Tunjić Tomislav",
-      "Tadić Mijo",
+      "Topalović Mara",
       "Džinić Mario",
       "Marković Ilija",
       "Marković Katica"
@@ -876,9 +880,11 @@ window.WEDDING_TABLES = [
       "Veselčić Marko",
       "Topalović Vinko",
       "Topalović Ružica",
-      "Topalović Mara",
+      "Tadić Mijo",
       "Jurić Mato (Macan)",
-      "Jurić Ana"
+      "Jurić Ana",
+      "Veselčić Josip (Vitin)",
+      "Jurić Ivan (Antin)"
     ]
   }
 ];
