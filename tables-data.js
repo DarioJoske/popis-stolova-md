@@ -153,10 +153,8 @@ window.WEDDING_TABLES = [
       "Dogančić Mara",
       "Jerković Branko",
       "Jerković Arzeta",
-      "Jozić Josip",
-      "Jozić Ljubi",
-      "Jozić Franciska",
-      "Jozić Nikolas",
+      "Jurić Anto (Peleš)",
+      "Jurić Marijana",
       "Veselčić Matija (Maćoš)",
       "Veselčić Snježana"
     ]
@@ -294,7 +292,7 @@ window.WEDDING_TABLES = [
       "Paradžiković Kata",
       "Paradžiković Dražen",
       "Paradžiković Vesna",
-      "Paradžiković Luca",
+      "Jerković Niko",
       "Dežić Jozo",
       "Dežić Kata",
       "Jurić Milenko",
@@ -382,6 +380,7 @@ window.WEDDING_TABLES = [
     "note": "Raspored sjedenja",
     "guests": [
       "Paradžiković Vlado",
+      "Paradžiković Mara",
       "Paradžiković Ivo (Kota)",
       "Paradžiković Mara",
       "Paradžiković Vitomir",
@@ -391,8 +390,7 @@ window.WEDDING_TABLES = [
       "Bogdanović Kata",
       "Bogdanović Marko",
       "Veselčić Franjo",
-      "Dežić Petar",
-      "Jerković Niko"
+      "Dežić Petar"
     ]
   },
   {
@@ -758,8 +756,6 @@ window.WEDDING_TABLES = [
       "Tolušić Anita",
       "Kovač Branko",
       "Kovač Maja",
-      "Jurić Anto (Peleš)",
-      "Jurić Marijana",
       "Jurić Marina",
       "Bacanović Mario",
       "Marić Robert"
