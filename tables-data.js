@@ -120,8 +120,7 @@ window.WEDDING_TABLES = [
       "Momić Damjan",
       "Paradžiković Tomo",
       "Paradžiković Davor",
-      "Gradečak Matej",
-      "Kralj Paula"
+      "Gradečak Matej"
     ]
   },
   {
@@ -879,7 +878,7 @@ window.WEDDING_TABLES = [
       "Tadić Mijo",
       "Jurić Mato (Macan)",
       "Jurić Ana",
-      "Veselčić Josip (Vitin)",
+      "Grbić Petar",
       "Jurić Ivan (Antin)"
     ]
   }
