@@ -6,7 +6,6 @@ window.WEDDING_TABLES = [
       "Jurić Niko",
       "Jurić Mara",
       "Jurić Frano",
-      "Jurić Ženet",
       "Jurić Ivan",
       "Oehlschläger Hannah",
       "Ćebić Marko",
