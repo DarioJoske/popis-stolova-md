@@ -879,7 +879,8 @@ window.WEDDING_TABLES = [
       "Jurić Mato (Macan)",
       "Jurić Ana",
       "Grbić Petar",
-      "Jurić Ivan (Antin)"
+      "Jurić Ivan (Antin)",
+      "Veselčić Adriana"
     ]
   }
 ];
